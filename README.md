@@ -44,20 +44,20 @@ The dataset used in this project contains:
 
 ## **R Scripts**
 1. 01-import-data.r
-Purpose: Load and preprocess the dataset.
-Key Steps:
+- Purpose: Load and preprocess the dataset.
+- Key Steps:
 Clean missing or invalid values.
 Filter for valid date ranges.
 Save the cleaned dataset for further analysis.
 2. 02-exploratory-data-analysis.r
-Purpose: Perform exploratory data analysis (EDA) to identify temperature trends and patterns.
-Outputs:
+- Purpose: Perform exploratory data analysis (EDA) to identify temperature trends and patterns.
+- Outputs:
 Time-series plots of global average temperatures.
 Density plots comparing temperature distributions before and after 1950.
 Heatmaps of country-level temperature changes.
-Figures Saved: All plots are saved in the figures/ directory.
+- Figures Saved: All plots are saved in the figures/ directory.
 3. 03-hypothesis-testing.r
-Purpose: Conduct statistical hypothesis testing to evaluate temperature differences.
-Method:
+- Purpose: Conduct statistical hypothesis testing to evaluate temperature differences.
+- Method:
 Two-sample t-tests to compare average temperatures pre-1950 and post-1950.
 Output statistical summaries and confidence intervals.
