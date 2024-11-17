@@ -40,8 +40,6 @@ The dataset used in this project contains:
 
 ---
 
-## **Directory Structure**
-
 ## **R Scripts**
 1. 01-import-data.r
 Purpose: Load and preprocess the dataset.
@@ -61,3 +59,19 @@ Purpose: Conduct statistical hypothesis testing to evaluate temperature differen
 Method:
 Two-sample t-tests to compare average temperatures pre-1950 and post-1950.
 Output statistical summaries and confidence intervals.
+
+---
+
+## **Results**
+### Key Insights from EDA
+- Global Trends:
+-- Significant temperature increase post-1950.
+-- Strong upward trend in global average temperatures, evident in time-series plots.
+- Country-Level Analysis:
+-- Heatmaps highlight warming patterns in Europe, North America, and Asia.
+-- Density plots for countries like the USA and Russia reveal shifts in temperature distributions, with more frequent occurrences of higher temperatures.
+### Hypothesis Testing
+- Test Result:
+-- Null Hypothesis: There is no significant difference in average temperatures pre- and post-1950.
+-- Alternative Hypothesis: There is a significant difference in average temperatures.
+- Outcome: The null hypothesis is rejected, confirming that post-1950 temperatures are significantly higher.
