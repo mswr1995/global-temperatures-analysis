@@ -7,12 +7,8 @@ This project focuses on analyzing global land temperature data to uncover histor
 ## **Table of Contents**
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
-- [Directory Structure](#directory-structure)
 - [R Scripts](#r-scripts)
 - [Results](#results)
-- [Future Work](#future-work)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -64,14 +60,14 @@ Output statistical summaries and confidence intervals.
 
 ## **Results**
 ### Key Insights from EDA
-- Global Trends:
--- Significant temperature increase post-1950.
--- Strong upward trend in global average temperatures, evident in time-series plots.
-- Country-Level Analysis:
--- Heatmaps highlight warming patterns in Europe, North America, and Asia.
--- Density plots for countries like the USA and Russia reveal shifts in temperature distributions, with more frequent occurrences of higher temperatures.
+1. Global Trends:
+- Significant temperature increase post-1950.
+- Strong upward trend in global average temperatures, evident in time-series plots.
+2. Country-Level Analysis:
+- Heatmaps highlight warming patterns in Europe, North America, and Asia.
+- Density plots for countries like the USA and Russia reveal shifts in temperature distributions, with more frequent occurrences of higher temperatures.
 ### Hypothesis Testing
-- Test Result:
--- Null Hypothesis: There is no significant difference in average temperatures pre- and post-1950.
--- Alternative Hypothesis: There is a significant difference in average temperatures.
-- Outcome: The null hypothesis is rejected, confirming that post-1950 temperatures are significantly higher.
+1. Test Result:
+- Null Hypothesis: There is no significant difference in average temperatures pre- and post-1950.
+- Alternative Hypothesis: There is a significant difference in average temperatures.
+2. Outcome: The null hypothesis is rejected, confirming that post-1950 temperatures are significantly higher.
