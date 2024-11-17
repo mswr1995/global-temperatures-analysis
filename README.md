@@ -59,7 +59,6 @@ Heatmaps of country-level temperature changes.
 - Method:
 Two-sample t-tests to compare average temperatures pre-1950 and post-1950.
 Output statistical summaries and confidence intervals.
-<<<<<<< HEAD
 
 ---
 
@@ -76,5 +75,3 @@ Output statistical summaries and confidence intervals.
 -- Null Hypothesis: There is no significant difference in average temperatures pre- and post-1950.
 -- Alternative Hypothesis: There is a significant difference in average temperatures.
 - Outcome: The null hypothesis is rejected, confirming that post-1950 temperatures are significantly higher.
-=======
->>>>>>> fd5404611792b541b50d1688001bceb9ff61c8a9
